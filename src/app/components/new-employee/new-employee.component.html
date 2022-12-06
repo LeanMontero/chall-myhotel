@@ -1,0 +1,26 @@
+<form [formGroup]="employeeForm" (ngSubmit)="addEmployee()" class="tw-flex tw-flex-col tw-m-4 ">
+  <mat-form-field appearance="fill">
+    <mat-label>ID</mat-label>
+    <input matInput formControlName="id" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Sectors</mat-label>
+    <mat-select formControlName="sectors" multiple required>
+      <mat-option *ngFor="let sectors of sectorsList" [value]="sectors">{{sectors}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+
+  <div class="tw-flex tw-justify-between">
+    <button mat-raised-button class="tw-bg-red-500 tw-text-white" (click)="closeDialog()">Close</button>
+    <button mat-raised-button class="tw-bg-green-500 tw-text-white">
+      <input type="submit" value="Confirm">
+    </button>
+  </div>
+</form>

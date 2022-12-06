@@ -1,0 +1,42 @@
+{
+  "employee": [
+    {
+      "name": "Luciano",
+      "creationDate": "Tue, 06 Dec 2022 05:45:27 GMT",
+      "sectors": [
+        "Commerce"
+      ],
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Leandroasd",
+      "creationDate": "Tue, 06 Dec 2022 06:14:51 GMT",
+      "sectors": [
+        "Agriculture",
+        "Production",
+        "Commerce",
+        "Construction",
+        "Mining",
+        "Transport"
+      ]
+    },
+    {
+      "name": "Leandro",
+      "creationDate": "Tue, 06 Dec 2022 06:19:42 GMT",
+      "sectors": [
+        "Agriculture"
+      ],
+      "id": 5
+    },
+    {
+      "name": "Leandro Montero",
+      "creationDate": "Tue, 06 Dec 2022 06:22:47 GMT",
+      "sectors": [
+        "Agriculture",
+        "Production"
+      ],
+      "id": 6
+    }
+  ]
+}
