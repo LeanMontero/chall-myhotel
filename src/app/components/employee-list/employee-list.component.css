@@ -10,4 +10,20 @@ table {
 td,
 th {
   width: 25%;
+  font-weight: 400;
+}
+
+.Green {
+  color: green;
+  font-weight: 500;
+}
+
+.Red {
+  color: red;
+  font-weight: 500;
+}
+
+.Yellow {
+  color: #FFE800;
+  font-weight: 500;
 }

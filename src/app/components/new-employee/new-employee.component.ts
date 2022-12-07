@@ -17,6 +17,11 @@ export class NewEmployeeComponent implements OnInit {
     'Mining',
     'Transport',
   ];
+  holidaysList: string[] = [
+    'Available',
+    'Pending',
+    'Not Available'
+  ]
   date = new Date();
   editEmployee: any;
   constructor(
@@ -35,6 +40,7 @@ export class NewEmployeeComponent implements OnInit {
           name: this.editEmployee.name,
           creationDate: this.editEmployee.creationDate,
           sectors: this.editEmployee.sectors,
+          holidays: this.editEmployee.holidays
         });
       });
     }
@@ -45,6 +51,7 @@ export class NewEmployeeComponent implements OnInit {
     name: this.form.control('', Validators.required),
     creationDate: this.form.control(this.date.toUTCString()),
     sectors: this.form.control('', Validators.required),
+    holidays: this.form.control('', Validators.required)
   });
 
   addEmployee() {
@@ -60,7 +67,7 @@ export class NewEmployeeComponent implements OnInit {
       } else {
         this.svc
           .createEmployee(this.employeeForm.value)
-          .subscribe((response) => {
+          .subscribe((res) => {
             alert('Saved successfully');
             this.dialogRef.close();
           });

@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { IEmployee } from 'src/app/interfaces/employee.interface';
 import { NewEmployeeComponent } from '../new-employee/new-employee.component';
 import { MatPaginator } from '@angular/material/paginator';
@@ -10,15 +10,15 @@ import { ApiService } from 'src/app/services/api.service';
 @Component({
   selector: 'app-employee-list',
   templateUrl: './employee-list.component.html',
-  styleUrls: ['./employee-list.component.css'],
-  encapsulation: ViewEncapsulation.None,
+  styleUrls: ['./employee-list.component.css']
 })
 export class EmployeeListComponent implements OnInit {
   displayedColumns: string[] = [
     'id',
     'name',
     'creationDate',
-    'sector',
+    'holidays',
+    'sectors',
     'edit',
     'delete',
   ];

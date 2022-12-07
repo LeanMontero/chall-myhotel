@@ -3,4 +3,5 @@ export interface IEmployee {
   name: string;
   creationDate: string;
   sectors: string[];
+  holidays: string;
 }

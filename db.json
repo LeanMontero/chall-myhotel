@@ -1,42 +1,37 @@
 {
   "employee": [
     {
-      "name": "Luciano",
-      "creationDate": "Tue, 06 Dec 2022 05:45:27 GMT",
-      "sectors": [
-        "Commerce"
-      ],
-      "id": 3
-    },
-    {
-      "id": 4,
-      "name": "Leandroasd",
-      "creationDate": "Tue, 06 Dec 2022 06:14:51 GMT",
+      "id": 1,
+      "name": "Juan",
+      "creationDate": "Wed, 07 Dec 2022 02:51:01 GMT",
       "sectors": [
         "Agriculture",
         "Production",
-        "Commerce",
+        "Commerce"
+      ],
+      "holidays": "Available"
+    },
+    {
+      "id": 2,
+      "name": "Pedro",
+      "creationDate": "Wed, 07 Dec 2022 02:51:41 GMT",
+      "sectors": [
         "Construction",
         "Mining",
         "Transport"
-      ]
-    },
-    {
-      "name": "Leandro",
-      "creationDate": "Tue, 06 Dec 2022 06:19:42 GMT",
-      "sectors": [
-        "Agriculture"
       ],
-      "id": 5
+      "holidays": "Pending"
     },
     {
-      "name": "Leandro Montero",
-      "creationDate": "Tue, 06 Dec 2022 06:22:47 GMT",
+      "id": 3,
+      "name": "Carlos",
+      "creationDate": "Wed, 07 Dec 2022 03:11:08 GMT",
       "sectors": [
         "Agriculture",
-        "Production"
+        "Commerce",
+        "Mining"
       ],
-      "id": 6
+      "holidays": "Not Available"
     }
   ]
 }
