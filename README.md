@@ -13,7 +13,7 @@ Se podrá paginar como también filtrar los datos que contiene la tabla.
 Para la validación del alta y modificación de los datos se utilizó Reactive Forms.
 # FORMATO DE FECHA
 Para el formato fecha se utilizó un Pipe.
-## Cambiar de color según disponibilidad de Vacaciones
+## CAMBIAR EL COLOR SEGUN DISPONIBILIDAD DE VACACIONES
 Las opciones para vacaciones son: Disponible (Se pintará de color verde) - No Disponible (Se pintará de color rojo) - Pendiente (Se pintará de color amarillo).
 ## INSTALAR Y CORRER LA APLICACIÓN
 ## 1
